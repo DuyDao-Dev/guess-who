@@ -2,7 +2,7 @@ console.log('Here are all the available people:', people);
 
 $(document).ready(onReady){
   //need a listener
-  $().on('click',){
+  $('.primePhotos').on('click', {
     //run randomNumber first and then runPerson handler to see if it matches.
   }
 }
@@ -23,7 +23,7 @@ function pickPerson (userName){
 }
 
 function findMatch(){
-  if (pickPerson.userName == randomNumber.output){
+  if (pickPerson.userName === randomNumber.output){
     alert(`You guessed right!`);
   }
   alert(`You've guessed wrong! Try again!`);
