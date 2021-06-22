@@ -1,0 +1,4 @@
+.primePhotos {
+    display: flex;
+    /* //this wouldn't resize my photo but setting the size in html worked. */
+}
